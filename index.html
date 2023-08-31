@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form action="" onsubmit="event.preventDefault()">
+      <div>
+        <label for="input">Navn</label>
+        <input type="text" name="input" />
+      </div>
+<section class="output_wrapper">
+          <div><label for="fornavn">fornavn:</label><output name="fornavn"></output></div>
+          <div><label for="mellemnavn">mellemnavn:</label><output name="mellemnavn"></output></div>
+          <div><label for="efternavn">efternavn:</label><output name="efternavn"></output></div>
+</section>
+      <button onclick="splitName();">split navn</button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
